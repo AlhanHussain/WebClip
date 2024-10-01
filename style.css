@@ -245,6 +245,7 @@ margin-left: -100px;
     flex-direction: row;
     flex-wrap: wrap;
      margin-left: 100px;
+     margin-bottom: -100px;
 
 }
 .my-blocks{
@@ -256,8 +257,8 @@ margin-left: -100px;
  margin-bottom: 30px;
 }
 .my-blocks:hover{
-    box-shadow: 2px 2px 2px 2px #dae1e6;
-    border: 3px solid #091823;
+    box-shadow: 0 0 8px 8px  #f5f6f7;
+    /* border: 3px solid #091823; */
 
 }
 .my-blocks img{
@@ -301,7 +302,8 @@ margin-left: -100px;
     border-radius: 10px;
     margin-right: 40%;
     margin-left: 45%;
-    margin-top: 50px;
+    margin-top: 150px;
+    position: relative;
     
  
 }
@@ -312,13 +314,16 @@ margin-left: -100px;
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     width: 100%;
 }
 .body2-left{
     text-align: right;
     position: relative;
-    margin-left: -200px;
+    margin-left: -510px;
+    position: absolute;
+    margin-top: 100px;
+
     
 }
 .body2-left h3{
@@ -370,6 +375,8 @@ margin-left: -100px;
     align-items: center;justify-content: center;
     position: absolute;
     background-color:white;
+    margin-left: -580px;
+    margin-top: 100px;
 }
 .medium-circle{
 
@@ -394,13 +401,22 @@ margin-left: -100px;
 .svg7{
  position: absolute;
  /* background: pink; */
- margin-left: -380px;
- margin-top: 100px;
+ margin-left: -695px;
+
+ margin-top: 200px;
  
 }
 footer{
     background: rgba(10, 41, 77, 0.8);
-    margin-top: 50px;
     height: 300px;
 
+}
+.svg9{
+    background-color: #70B8FB;
+    margin-top: 260px;
+    /* max-width: 2500px; */
+    width: 2284px;
+    height: 700px;
+    margin-left: -800px;
+    margin-right: -70px;
 }
